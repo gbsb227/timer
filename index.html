@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>timer</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="#"><img src="img/weniv-logo.png" /></a>
+      </h1>
+    </header>
+
+    <main>
+      <article class="time-wrapper">
+        <h2>TIMER</h2>
+        <section class="time-container">
+          <article class="time-box">
+            <p class="time-name">HRS</p>
+            <input class="time-number" value="00" />
+          </article>
+          <p class="dot">:</p>
+          <article class="time-box">
+            <p class="time-name">MIN</p>
+            <input class="time-number min" value="00" />
+          </article>
+          <p class="dot">:</p>
+          <article class="time-box">
+            <p class="time-name">SEC</p>
+            <input class="time-number sec" value="00" />
+          </article>
+        </section>
+        <section class="button-container">
+          <button class="control-button">START</button>
+          <button class="reset-button">RESET</button>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <p class="copyright">WENIV CORP</p>
+    </footer>
+    <script src="timer.js"></script>
+  </body>
+</html>

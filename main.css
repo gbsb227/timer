@@ -1,0 +1,112 @@
+body {
+  background: radial-gradient(
+      96.74% 276.79% at 3.59% 5.28%,
+      #f0f4ff 0%,
+      #a5b6ee 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+header {
+  /* box-shadow: inset 0 0 10px red; */
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+h1 img {
+  width: 200px;
+}
+
+main {
+  /* box-shadow: inset 0 0 10px yellow; */
+}
+.time-wrapper {
+  margin: 0 auto;
+  width: 400px;
+  height: 360px;
+  background: linear-gradient(144.07deg, #5572bb 2.13%, #374b7c 102.97%);
+  /* shadow */
+
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+  border-radius: 16px;
+
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px black;
+}
+
+.time-container {
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.time-box {
+  width: 80px;
+}
+
+.time-name {
+  text-align: center;
+  font-size: 12px;
+  color: #a5b6ee;
+}
+
+.time-number {
+  width: 80px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 5px;
+  background-image: url("./img/box.png");
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  /* padding-top: 25px; */
+  font-weight: bold;
+}
+.dot {
+  font-size: 40px;
+  color: #a5b6ee;
+}
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.control-button {
+  width: 112px;
+  height: 48px;
+  background: #324577;
+  border-radius: 50px;
+}
+
+.reset-button {
+  width: 112px;
+  height: 48px;
+  background: #324577;
+  border-radius: 50px;
+}
+
+footer {
+  /* box-shadow: inset 0 0 10px green; */
+}
+
+.copyright {
+  margin-top: 50px;
+  text-align: center;
+  color: grey;
+}
